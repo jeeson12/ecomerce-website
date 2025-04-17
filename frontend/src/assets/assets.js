@@ -1,59 +1,58 @@
-import p_img1 from './p_img1.png'
-import p_img2_1 from './p_img2_1.png'
-import p_img2_2 from './p_img2_2.png'
-import p_img2_3 from './p_img2_3.png'
-import p_img2_4 from './p_img2_4.png'
-import p_img3 from './p_img3.png'
-import p_img4 from './p_img4.png'
-import p_img5 from './p_img5.png'
-import p_img6 from './p_img6.png'
-import p_img7 from './p_img7.png'
-import p_img8 from './p_img8.png'
-import p_img9 from './p_img9.png'
-import p_img10 from './p_img10.png'
-import p_img11 from './p_img11.png'
-import p_img12 from './p_img12.png'
-import p_img13 from './p_img13.png'
-import p_img14 from './p_img14.png'
-import p_img15 from './p_img15.png'
-import p_img16 from './p_img16.png'
-import p_img17 from './p_img17.png'
-import p_img18 from './p_img18.png'
-import p_img19 from './p_img19.png'
-import p_img20 from './p_img20.png'
-import p_img21 from './p_img21.png'
-import p_img22 from './p_img22.png'
-import p_img23 from './p_img23.png'
-import p_img24 from './p_img24.png'
-import p_img25 from './p_img25.png'
-import p_img26 from './p_img26.png'
-import p_img27 from './p_img27.png'
-import p_img28 from './p_img28.png'
-import p_img29 from './p_img29.png'
-import p_img30 from './p_img30.png'
-import p_img31 from './p_img31.png'
-import p_img32 from './p_img32.png'
-import p_img33 from './p_img33.png'
-import p_img34 from './p_img34.png'
-import p_img35 from './p_img35.png'
-import p_img36 from './p_img36.png'
-import p_img37 from './p_img37.png'
-import p_img38 from './p_img38.png'
-import p_img39 from './p_img39.png'
-import p_img40 from './p_img40.png'
-import p_img41 from './p_img41.png'
-import p_img42 from './p_img42.png'
-import p_img43 from './p_img43.png'
-import p_img44 from './p_img44.png'
-import p_img45 from './p_img45.png'
-import p_img46 from './p_img46.png'
-import p_img47 from './p_img47.png'
-import p_img48 from './p_img48.png'
-import p_img49 from './p_img49.png'
-import p_img50 from './p_img50.png'
-import p_img51 from './p_img51.png'
-import p_img52 from './p_img52.png'
-
+import g_img1 from './g_img1.png';
+import g_img2_1 from './g_img2_1.png';
+import g_img2_2 from './g_img2_2.png';
+import g_img2_3 from './g_img2_3.png';
+import g_img2_4 from './g_img2_4.png';
+import g_img3 from './g_img3.png';
+import g_img4 from './g_img4.png';
+import g_img5 from './g_img5.png';
+import g_img6 from './g_img6.png';
+import g_img7 from './g_img7.png';
+import g_img8 from './g_img8.png';
+import g_img9 from './g_img9.png';
+import g_img10 from './g_img10.png';
+import g_img11 from './g_img11.png';
+import g_img12 from './g_img12.png';
+import g_img13 from './g_img13.png';
+import g_img14 from './g_img14.png';
+import g_img15 from './g_img15.png';
+import g_img16 from './g_img16.png';
+import g_img17 from './g_img17.png';
+import g_img18 from './g_img18.png';
+import g_img19 from './g_img19.png';
+import g_img20 from './g_img20.png';
+import g_img21 from './g_img21.png';
+import g_img22 from './g_img22.png';
+import g_img23 from './g_img23.png';
+import g_img24 from './g_img24.png';
+import g_img25 from './g_img25.png';
+import g_img26 from './g_img26.png';
+import g_img27 from './g_img27.png';
+import g_img28 from './g_img28.png';
+import g_img29 from './g_img29.png';
+import g_img30 from './g_img30.png';
+import g_img31 from './g_img31.png';
+import g_img32 from './g_img32.png';
+import g_img33 from './g_img33.png';
+import g_img34 from './g_img34.png';
+import g_img35 from './g_img35.png';
+import g_img36 from './g_img36.png';
+import g_img37 from './g_img37.png';
+import g_img38 from './g_img38.png';
+import g_img39 from './g_img39.png';
+import g_img40 from './g_img40.png';
+import g_img41 from './g_img41.png';
+import g_img42 from './g_img42.png';
+import g_img43 from './g_img43.png';
+import g_img44 from './g_img44.png';
+import g_img45 from './g_img45.png';
+import g_img46 from './g_img46.png';
+import g_img47 from './g_img47.png';
+import g_img48 from './g_img48.png';
+import g_img49 from './g_img49.png';
+import g_img50 from './g_img50.png';
+import g_img51 from './g_img51.png';
+import g_img52 from './g_img52.png';
 
 import logo from './logo.png'
 import hero_img from './hero_img.png'
@@ -98,626 +97,626 @@ export const assets = {
 export const products = [
     {
         _id: "aaaaa",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img1],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
+        name: "Samsung Galaxy Z Fold 6",
+        description: "A premium foldable smartphone with a 7.6-inch Dynamic AMOLED 2X display, Snapdragon 8 Gen 3, and 50MP triple camera.",
+        price: 164999,
+        image: [g_img1],
+        category: "Smartphones",
+        subCategory: "Foldable",
+        variants: ["256GB", "512GB"],
         date: 1716634345448,
         bestseller: true
     },
     {
         _id: "aaaab",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
+        name: "Apple iPhone 15 Pro",
+        description: "A flagship iPhone with A17 Pro chip, 6.1-inch Super Retina XDR display, and 48MP main camera with advanced computational photography.",
+        price: 119900,
+        image: [g_img2_1, g_img2_2, g_img2_3, g_img2_4],
+        category: "Smartphones",
+        subCategory: "Premium",
+        variants: ["256GB", "512GB", "1TB"],
         date: 1716621345448,
         bestseller: true
     },
     {
         _id: "aaaac",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img3],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
+        name: "Sony WH-1000XM5 Headphones",
+        description: "Top-tier noise-canceling wireless headphones with 30mm drivers, 30-hour battery life, and superior sound quality.",
+        price: 34990,
+        image: [g_img3],
+        category: "Audio",
+        subCategory: "Headphones",
+        variants: ["Black", "Silver"],
         date: 1716234545448,
         bestseller: true
     },
     {
         _id: "aaaad",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
-        image: [p_img4],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "XXL"],
+        name: "Google Pixel 8",
+        description: "A compact smartphone with Tensor G3 chip, 6.2-inch Actua display, and 50MP camera with enhanced AI features.",
+        price: 75999,
+        image: [g_img4],
+        category: "Smartphones",
+        subCategory: "Mid-Range",
+        variants: ["128GB", "256GB"],
         date: 1716621345448,
         bestseller: true
     },
     {
         _id: "aaaae",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
-        image: [p_img5],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
+        name: "Apple Watch Ultra 2",
+        description: "A rugged smartwatch with a 1.92-inch Retina display, S9 SiP, and advanced health features like ECG and blood oxygen monitoring.",
+        price: 89900,
+        image: [g_img5],
+        category: "Wearables",
+        subCategory: "Smartwatches",
+        variants: ["Titanium"],
         date: 1716622345448,
         bestseller: true
     },
     {
         _id: "aaaaf",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img6],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
+        name: "Bose QuietComfort Ultra Earbuds",
+        description: "Wireless earbuds with immersive audio, industry-leading noise cancellation, and 6-hour battery life.",
+        price: 25900,
+        image: [g_img6],
+        category: "Audio",
+        subCategory: "Earbuds",
+        variants: ["Black", "White Smoke"],
         date: 1716623423448,
         bestseller: true
     },
     {
         _id: "aaaag",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img7],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
+        name: "DJI Mavic 3 Classic",
+        description: "A professional drone with a 20MP Hasselblad camera, 46-minute flight time, and 5.1K video recording.",
+        price: 159999,
+        image: [g_img7],
+        category: "Drones",
+        subCategory: "Professional",
+        variants: ["Standard", "Fly More Combo"],
         date: 1716621542448,
         bestseller: false
     },
     {
         _id: "aaaah",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img8],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Samsung Galaxy Watch 6",
+        description: "A stylish smartwatch with a 1.5-inch Super AMOLED display, Exynos W930, and comprehensive health tracking.",
+        price: 29999,
+        image: [g_img8],
+        category: "Wearables",
+        subCategory: "Smartwatches",
+        variants: ["40mm", "44mm"],
         date: 1716622345448,
         bestseller: false
     },
     {
         _id: "aaaai",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 100,
-        image: [p_img9],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
+        name: "Anker Soundcore Liberty 3 Pro",
+        description: "Wireless earbuds with coaxial acoustic design, active noise cancellation, and 8-hour battery life.",
+        price: 12999,
+        image: [g_img9],
+        category: "Audio",
+        subCategory: "Earbuds",
+        variants: ["Black", "White"],
         date: 1716621235448,
         bestseller: false
     },
     {
         _id: "aaaaj",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 110,
-        image: [p_img10],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
+        name: "ASUS ROG Zephyrus G14 (2024)",
+        description: "A compact gaming laptop with AMD Ryzen 9 8945HS, RTX 4070, and 14-inch 120Hz OLED display.",
+        price: 189999,
+        image: [g_img10],
+        category: "Laptops",
+        subCategory: "Gaming",
+        variants: ["16GB RAM", "32GB RAM"],
         date: 1716622235448,
         bestseller: false
     },
     {
         _id: "aaaak",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 120,
-        image: [p_img11],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L"],
+        name: "Xiaomi 14",
+        description: "A premium smartphone with Snapdragon 8 Gen 3, 6.36-inch AMOLED display, and 90W hypercharging.",
+        price: 69999,
+        image: [g_img11],
+        category: "Smartphones",
+        subCategory: "Premium",
+        variants: ["256GB", "512GB"],
         date: 1716623345448,
         bestseller: false
     },
     {
         _id: "aaaal",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 150,
-        image: [p_img12],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Amazon Echo Show 10",
+        description: "A 10.1-inch smart display with Alexa, 1080p video calls, and motion-tracking for seamless interaction.",
+        price: 22999,
+        image: [g_img12],
+        category: "Smart Home",
+        subCategory: "Displays",
+        variants: ["Charcoal", "Glacier White"],
         date: 1716624445448,
         bestseller: false
     },
     {
         _id: "aaaam",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 130,
-        image: [p_img13],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Fitbit Versa 4",
+        description: "A fitness smartwatch with SpO2 monitoring, built-in GPS, and 6-day battery life.",
+        price: 19990,
+        image: [g_img13],
+        category: "Wearables",
+        subCategory: "Fitness Trackers",
+        variants: ["Black", "Pink Sand"],
         date: 1716625545448,
         bestseller: false
     },
     {
         _id: "aaaan",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 160,
-        image: [p_img14],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Sony PlayStation 5 Slim",
+        description: "A compact gaming console with 1TB SSD, 4K gaming, and support for ray tracing.",
+        price: 54990,
+        image: [g_img14],
+        category: "Gaming",
+        subCategory: "Consoles",
+        variants: ["Disc", "Digital"],
         date: 1716626645448,
         bestseller: false
     },
     {
         _id: "aaaao",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 140,
-        image: [p_img15],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Microsoft Surface Laptop 5",
+        description: "A sleek laptop with Intel Core i7, 13.5-inch PixelSense display, and 18-hour battery life.",
+        price: 129900,
+        image: [g_img15],
+        category: "Laptops",
+        subCategory: "Ultrabooks",
+        variants: ["16GB RAM", "32GB RAM"],
         date: 1716627745448,
         bestseller: false
     },
     {
         _id: "aaaap",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 170,
-        image: [p_img16],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "JBL Charge 5",
+        description: "A portable Bluetooth speaker with 20-hour battery life, IP67 waterproofing, and powerful bass.",
+        price: 15990,
+        image: [g_img16],
+        category: "Audio",
+        subCategory: "Speakers",
+        variants: ["Black", "Blue"],
         date: 1716628845448,
         bestseller: false
     },
     {
         _id: "aaaaq",
-        name: "Men Tapered Fit Flat-Front Trousers",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 150,
-        image: [p_img17],
-        category: "Men",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Razer Blade 15 (2023)",
+        description: "A gaming laptop with Intel Core i7-13800H, RTX 4070, and 15.6-inch QHD 240Hz display.",
+        price: 229999,
+        image: [g_img17],
+        category: "Laptops",
+        subCategory: "Gaming",
+        variants: ["1TB SSD", "2TB SSD"],
         date: 1716629945448,
         bestseller: false
     },
     {
         _id: "aaaar",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 180,
-        image: [p_img18],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Garmin Forerunner 955",
+        description: "A multisport watch with solar charging, heart rate monitoring, and up to 20 days of battery life.",
+        price: 49990,
+        image: [g_img18],
+        category: "Wearables",
+        subCategory: "Sports Watches",
+        variants: ["Black", "Whitestone"],
         date: 1716631045448,
         bestseller: false
     },
     {
         _id: "aaaas",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 160,
-        image: [p_img19],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Nintendo Switch OLED",
+        description: "A hybrid console with a 7-inch OLED display, 64GB storage, and enhanced audio.",
+        price: 34990,
+        image: [g_img19],
+        category: "Gaming",
+        subCategory: "Consoles",
+        variants: ["White", "Neon Red/Blue"],
         date: 1716632145448,
         bestseller: false
     },
     {
         _id: "aaaat",
-        name: "Women Palazzo Pants with Waist Belt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img20],
-        category: "Women",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Ring Stick Up Cam Battery",
+        description: "A versatile 1080p security camera with motion detection and battery-powered design.",
+        price: 9999,
+        image: [g_img20],
+        category: "Smart Home",
+        subCategory: "Security",
+        variants: ["White", "Black"],
         date: 1716633245448,
         bestseller: false
     },
     {
         _id: "aaaau",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 170,
-        image: [p_img21],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Bose QuietComfort 45 Headphones",
+        description: "Wireless headphones with active noise cancellation, 24-hour battery life, and balanced audio.",
+        price: 29990,
+        image: [g_img21],
+        category: "Audio",
+        subCategory: "Headphones",
+        variants: ["Black", "White Smoke"],
         date: 1716634345448,
         bestseller: false
     },
     {
         _id: "aaaav",
-        name: "Women Palazzo Pants with Waist Belt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img22],
-        category: "Women",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Logitech G Pro X Wireless",
+        description: "A gaming headset with 50mm drivers, Blue VO!CE mic, and 20-hour battery life.",
+        price: 18990,
+        image: [g_img22],
+        category: "Gaming",
+        subCategory: "Accessories",
+        variants: ["Black"],
         date: 1716635445448,
         bestseller: false
     },
     {
         _id: "aaaaw",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 180,
-        image: [p_img23],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Meta Quest 3",
+        description: "A mixed-reality VR headset with Snapdragon XR2 Gen 2, 4K+ displays, and 120Hz refresh rate.",
+        price: 64990,
+        image: [g_img23],
+        category: "Gaming",
+        subCategory: "VR",
+        variants: ["128GB", "512GB"],
         date: 1716636545448,
         bestseller: false
     },
     {
         _id: "aaaax",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 210,
-        image: [p_img24],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Samsung Odyssey G9",
+        description: "A 49-inch curved QLED gaming monitor with 240Hz refresh rate and 1ms response time.",
+        price: 129999,
+        image: [g_img24],
+        category: "Gaming",
+        subCategory: "Monitors",
+        variants: ["Black"],
         date: 1716637645448,
         bestseller: false
     },
     {
         _id: "aaaay",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 190,
-        image: [p_img25],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Anker PowerCore 20000",
+        description: "A 20000mAh power bank with 20W PowerIQ 3.0 fast charging and compact design.",
+        price: 4999,
+        image: [g_img25],
+        category: "Accessories",
+        subCategory: "Power Banks",
+        variants: ["Black", "White"],
         date: 1716638745448,
         bestseller: false
     },
     {
         _id: "aaaaz",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img26],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "LG OLED C4 65-Inch TV",
+        description: "A 65-inch 4K OLED TV with 120Hz refresh rate, Dolby Vision IQ, and webOS smart platform.",
+        price: 249990,
+        image: [g_img26],
+        category: "Televisions",
+        subCategory: "OLED",
+        variants: ["55-Inch", "65-Inch"],
         date: 1716639845448,
         bestseller: false
     },
     {
         _id: "aaaba",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 200,
-        image: [p_img27],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "GoPro HERO 12 Black",
+        description: "An action camera with 5.3K HDR video, HyperSmooth 5.0 stabilization, and 33ft waterproofing.",
+        price: 39990,
+        image: [g_img27],
+        category: "Cameras",
+        subCategory: "Action",
+        variants: ["Standard", "Creator Edition"],
         date: 1716640945448,
         bestseller: false
     },
     {
         _id: "aaabb",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 230,
-        image: [p_img28],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Razer DeathAdder V2 Pro",
+        description: "A wireless gaming mouse with 20K DPI sensor, optical switches, and 70-hour battery life.",
+        price: 10990,
+        image: [g_img28],
+        category: "Gaming",
+        subCategory: "Accessories",
+        variants: ["Black"],
         date: 1716642045448,
         bestseller: false
     },
     {
         _id: "aaabc",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 210,
-        image: [p_img29],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "OnePlus 12",
+        description: "A flagship smartphone with Snapdragon 8 Gen 3, 6.82-inch QHD+ AMOLED, and 100W SUPERVOOC charging.",
+        price: 69999,
+        image: [g_img29],
+        category: "Smartphones",
+        subCategory: "Premium",
+        variants: ["256GB", "512GB"],
         date: 1716643145448,
         bestseller: false
     },
     {
         _id: "aaabd",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 240,
-        image: [p_img30],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Jabra Elite 8 Active",
+        description: "Rugged wireless earbuds with ANC, Dolby Audio, and 8-hour battery life.",
+        price: 17990,
+        image: [g_img30],
+        category: "Audio",
+        subCategory: "Earbuds",
+        variants: ["Black", "Navy"],
         date: 1716644245448,
         bestseller: false
     },
     {
         _id: "aaabe",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 220,
-        image: [p_img31],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Lenovo Legion 5 Pro (2023)",
+        description: "A gaming laptop with AMD Ryzen 7 7745HX, RTX 4070, and 16-inch WQXGA 165Hz display.",
+        price: 159999,
+        image: [g_img31],
+        category: "Laptops",
+        subCategory: "Gaming",
+        variants: ["1TB SSD", "2TB SSD"],
         date: 1716645345448,
         bestseller: false
     },
     {
         _id: "aaabf",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 250,
-        image: [p_img32],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Sony A7 IV Mirrorless Camera",
+        description: "A full-frame mirrorless camera with 33MP sensor, 4K 60fps video, and real-time Eye AF.",
+        price: 249990,
+        image: [g_img32],
+        category: "Cameras",
+        subCategory: "Mirrorless",
+        variants: ["Body Only", "With 28-70mm Lens"],
         date: 1716646445448,
         bestseller: false
     },
     {
         _id: "aaabg",
-        name: "Girls Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 230,
-        image: [p_img33],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Tile Mate (2022)",
+        description: "A Bluetooth tracker with 250ft range, IP67 water resistance, and 3-year battery life.",
+        price: 2499,
+        image: [g_img33],
+        category: "Accessories",
+        subCategory: "Trackers",
+        variants: ["Black", "White"],
         date: 1716647545448,
         bestseller: false
     },
     {
         _id: "aaabh",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 260,
-        image: [p_img34],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Samsung Galaxy Tab S9 Ultra",
+        description: "A 14.6-inch Dynamic AMOLED 2X tablet with Snapdragon 8 Gen 2 and S Pen support.",
+        price: 119999,
+        image: [g_img34],
+        category: "Tablets",
+        subCategory: "Premium",
+        variants: ["256GB", "512GB"],
         date: 1716648645448,
         bestseller: false
     },
     {
         _id: "aaabi",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 240,
-        image: [p_img35],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Bose SoundLink Flex",
+        description: "A compact Bluetooth speaker with 12-hour battery life, IP67 waterproofing, and rich sound.",
+        price: 14990,
+        image: [g_img35],
+        category: "Audio",
+        subCategory: "Speakers",
+        variants: ["Black", "Stone Blue"],
         date: 1716649745448,
         bestseller: false
     },
     {
         _id: "aaabj",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
-        image: [p_img36],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Apple MacBook Pro 14 (M3 Max)",
+        description: "A high-performance laptop with M3 Max chip, 14.2-inch Liquid Retina XDR, and 18-hour battery life.",
+        price: 319900,
+        image: [g_img36],
+        category: "Laptops",
+        subCategory: "Workstations",
+        variants: ["512GB", "1TB"],
         date: 1716650845448,
         bestseller: false
     },
     {
         _id: "aaabk",
-        name: "Women Round Neck Cotton Top",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 250,
-        image: [p_img37],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Google Nest Doorbell Wired",
+        description: "A 1080p video doorbell with HDR, intelligent alerts, and continuous recording.",
+        price: 17990,
+        image: [g_img37],
+        category: "Smart Home",
+        subCategory: "Security",
+        variants: ["Snow", "Ivy"],
         date: 1716651945448,
         bestseller: false
     },
     {
         _id: "aaabl",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 280,
-        image: [p_img38],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Oppo Find X7 Ultra",
+        description: "A flagship smartphone with Snapdragon 8 Gen 3, 6.82-inch AMOLED, and 50MP quad-camera system.",
+        price: 84999,
+        image: [g_img38],
+        category: "Smartphones",
+        subCategory: "Premium",
+        variants: ["256GB", "512GB"],
         date: 1716653045448,
         bestseller: false
     },
     {
         _id: "aaabm",
-        name: "Men Printed Plain Cotton Shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 260,
-        image: [p_img39],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Logitech MX Mechanical",
+        description: "A wireless mechanical keyboard with tactile switches, backlighting, and multi-device connectivity.",
+        price: 14990,
+        image: [g_img39],
+        category: "Accessories",
+        subCategory: "Keyboards",
+        variants: ["Graphite", "Grey"],
         date: 1716654145448,
         bestseller: false
     },
     {
         _id: "aaabn",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 290,
-        image: [p_img40],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Acer Predator Helios 16 (2024)",
+        description: "A gaming laptop with Intel Core i9-13900HX, RTX 4080, and 16-inch QHD+ 240Hz display.",
+        price: 199999,
+        image: [g_img40],
+        category: "Laptops",
+        subCategory: "Gaming",
+        variants: ["1TB SSD", "2TB SSD"],
         date: 1716655245448,
         bestseller: false
     },
     {
         _id: "aaabo",
-        name: "Men Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 270,
-        image: [p_img41],
-        category: "Men",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Vivo X100 Pro",
+        description: "A premium smartphone with MediaTek Dimensity 9300, 6.78-inch AMOLED, and 50MP Zeiss triple camera.",
+        price: 89999,
+        image: [g_img41],
+        category: "Smartphones",
+        subCategory: "Premium",
+        variants: ["256GB", "512GB"],
         date: 1716656345448,
         bestseller: false
     },
     {
         _id: "aaabp",
-        name: "Boy Round Neck Pure Cotton T-shirt",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 300,
-        image: [p_img42],
-        category: "Kids",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Roku Smart TV 4K",
+        description: "A 43-inch 4K LED TV with Dolby Vision, HDR10, and built-in Roku streaming platform.",
+        price: 29990,
+        image: [g_img42],
+        category: "Smart Home",
+        subCategory: "Streaming",
+        variants: ["Black"],
         date: 1716657445448,
         bestseller: false
     },
     {
         _id: "aaabq",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 280,
-        image: [p_img43],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Ecovacs Deebot T20 Omni",
+        description: "A robot vacuum and mop with 6000Pa suction, auto-emptying, and hot-water mopping.",
+        price: 109999,
+        image: [g_img43],
+        category: "Smart Home",
+        subCategory: "Cleaning",
+        variants: ["White"],
         date: 1716658545448,
         bestseller: false
     },
     {
         _id: "aaabr",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 310,
-        image: [p_img44],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Samsung QN90C 55-Inch QLED TV",
+        description: "A 55-inch 4K QLED TV with 120Hz refresh rate, Neo Quantum HDR, and Tizen OS.",
+        price: 159999,
+        image: [g_img44],
+        category: "Televisions",
+        subCategory: "QLED",
+        variants: ["55-Inch", "65-Inch"],
         date: 1716659645448,
         bestseller: false
     },
     {
         _id: "aaabs",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 290,
-        image: [p_img45],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Corsair K65 RGB Mini",
+        description: "A compact mechanical gaming keyboard with Cherry MX Speed switches and customizable RGB lighting.",
+        price: 12990,
+        image: [g_img45],
+        category: "Gaming",
+        subCategory: "Accessories",
+        variants: ["Black", "White"],
         date: 1716660745448,
         bestseller: false
     },
     {
         _id: "aaabt",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [p_img46],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "DJI Osmo Action 4",
+        description: "A rugged action camera with 4K HDR video, 1/1.3-inch sensor, and 10m waterproofing.",
+        price: 34990,
+        image: [g_img46],
+        category: "Cameras",
+        subCategory: "Compact",
+        variants: ["Standard", "Adventure Combo"],
         date: 1716661845448,
         bestseller: false
     },
     {
         _id: "aaabu",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 300,
-        image: [p_img47],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "iRobot Roomba j7+",
+        description: "A robot vacuum with auto-emptying, PrecisionVision navigation, and pet waste avoidance.",
+        price: 79990,
+        image: [g_img47],
+        category: "Smart Home",
+        subCategory: "Cleaning",
+        variants: ["Black"],
         date: 1716662945448,
         bestseller: false
     },
     {
         _id: "aaabv",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 330,
-        image: [p_img48],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "ASUS ZenBook 14 OLED (2024)",
+        description: "A premium ultrabook with Intel Core Ultra 7, 14-inch 3K OLED display, and 15-hour battery life.",
+        price: 129999,
+        image: [g_img48],
+        category: "Laptops",
+        subCategory: "Workstations",
+        variants: ["512GB SSD", "1TB SSD"],
         date: 1716664045448,
         bestseller: false
     },
     {
         _id: "aaabw",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 310,
-        image: [p_img49],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Arlo Pro 4 Spotlight Camera",
+        description: "A wireless 2K security camera with color night vision and built-in spotlight.",
+        price: 19990,
+        image: [g_img49],
+        category: "Smart Home",
+        subCategory: "Security",
+        variants: ["White", "Black"],
         date: 1716665145448,
         bestseller: false
     },
     {
         _id: "aaabx",
-        name: "Kid Tapered Slim Fit Trouser",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 340,
-        image: [p_img50],
-        category: "Kids",
-        subCategory: "Bottomwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716666245448, bestseller: false
+        name: "Netgear Nighthawk AX5400",
+        description: "A Wi-Fi 6 router with 5.4Gbps speeds, 6-stream connectivity, and advanced QoS.",
+        price: 24990,
+        image: [g_img50],
+        category: "Networking",
+        subCategory: "Routers",
+        variants: ["Black"],
+        date: 1716666245448,
+        bestseller: false
     },
     {
         _id: "aaaby",
-        name: "Women Zip-Front Relaxed Fit Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 320,
-        image: [p_img51],
-        category: "Women",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Sony WF-C510",
+        description: "Affordable wireless earbuds with 11-hour battery life, IPX4 water resistance, and clear sound.",
+        price: 5990,
+        image: [g_img51],
+        category: "Audio",
+        subCategory: "Earbuds",
+        variants: ["Black", "White"],
         date: 1716667345448,
         bestseller: false
     },
     {
         _id: "aaabz",
-        name: "Men Slim Fit Relaxed Denim Jacket",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 350,
-        image: [p_img52],
-        category: "Men",
-        subCategory: "Winterwear",
-        sizes: ["S", "M", "L", "XL"],
+        name: "Dell Alienware AW2723DF",
+        description: "A 27-inch QHD gaming monitor with 280Hz refresh rate and 1ms response time.",
+        price: 59990,
+        image: [g_img52],
+        category: "Gaming",
+        subCategory: "Monitors",
+        variants: ["Black"],
         date: 1716668445448,
         bestseller: false
     }
-
-]
+];
